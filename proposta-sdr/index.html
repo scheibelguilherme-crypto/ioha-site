@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Proposta Comercial · Pré-Vendedora (SDR) · IOHÁ Academy</title>
+<style>
+  :root {
+    --bg: #f6f3ec; --ink: #35302a; --ink-strong: #2e2a23; --accent: #a0552e;
+    --line: #d8d0be; --line-soft: #ddd5c2; --muted: #8a8272; --muted2: #6d6555;
+    --panel: #efe9da; --panel-hot: #ede2d0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; background: var(--bg); color: var(--ink); font-size: 17px; line-height: 1.65; -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 40px 22px 80px; }
+  header.top { display: flex; justify-content: space-between; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 48px; }
+  .logo { height: 44px; margin-bottom: 36px; display: block; }
+  .emblema { height: 110px; margin: 30px 0 6px; display: block; }
+  .kicker { font-size: 12px; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); font-weight: 600; margin-bottom: 12px; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: clamp(30px, 6vw, 44px); line-height: 1.15; color: var(--ink-strong); margin-bottom: 14px; }
+  h2 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(22px, 4vw, 28px); color: var(--ink-strong); margin: 56px 0 6px; }
+  h2 .sn { color: var(--accent); font-size: 15px; margin-right: 10px; letter-spacing: 1px; }
+  h3 { font-size: 15px; font-weight: 700; color: var(--ink-strong); margin: 26px 0 8px; }
+  .mote { font-family: Georgia, serif; font-style: italic; font-size: 17px; color: #7a6a4f; margin-bottom: 16px; }
+  p { margin-bottom: 14px; }
+  .small { font-size: 13.5px; color: var(--muted2); }
+  strong { color: var(--ink-strong); }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0 22px; font-size: 15px; }
+  th { text-align: left; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); font-weight: 600; padding: 8px 10px; border-bottom: 1.4px solid #b9ad92; }
+  td { padding: 10px; border-bottom: 1px solid var(--line-soft); vertical-align: top; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  tr.total td { font-weight: 700; border-top: 1.4px solid #b9ad92; }
+  ul { margin: 0 0 14px 22px; }
+  li { margin-bottom: 8px; }
+  .meta { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); padding: 16px 0; margin: 34px 0; font-size: 15px; }
+  .meta div { display: flex; padding: 5px 0; }
+  .meta .k { font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); width: 170px; flex-shrink: 0; padding-top: 3px; }
+  footer { margin-top: 70px; border-top: 1px solid var(--line); padding-top: 14px; font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+  /* calculadora */
+  .calc { background: var(--panel); border: 1.5px solid #b9ad92; border-radius: 6px; padding: 26px 24px; margin: 30px 0; }
+  .calc h2 { margin-top: 0; }
+  .calc .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 20px; margin: 18px 0; }
+  @media (max-width: 560px) { .calc .grid { grid-template-columns: 1fr; } }
+  .field label { display: block; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: var(--muted2); font-weight: 600; margin-bottom: 6px; }
+  .field input, .field select { width: 100%; padding: 11px 12px; font-size: 17px; font-family: inherit; color: var(--ink-strong); background: #fbf9f4; border: 1px solid #c5bba4; border-radius: 4px; }
+  .field input:focus, .field select:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+  .chk { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; margin: 6px 0 14px; color: var(--muted2); }
+  .chk input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--accent); }
+  .quick { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; }
+  .quick button { font-family: inherit; font-size: 12.5px; padding: 6px 12px; border: 1px solid #c5bba4; background: #fbf9f4; color: var(--muted2); border-radius: 20px; cursor: pointer; }
+  .quick button:hover { border-color: var(--accent); color: var(--accent); }
+  .result { background: var(--panel-hot); border-left: 4px solid var(--accent); padding: 18px 20px; margin-top: 20px; border-radius: 0 4px 4px 0; }
+  .result table { margin: 0; font-size: 14.5px; }
+  .result td { padding: 7px 6px; border-color: #d8c9b2; }
+  .result .rt td { font-family: Georgia, serif; font-size: 22px; font-weight: 400; color: var(--ink-strong); border-top: 1.6px solid var(--accent); border-bottom: none; padding-top: 12px; }
+  .warn-gate { color: #9c3d2e; font-size: 14px; margin-top: 10px; display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top"><span>IOHÁ Academy</span><span>Documento reservado</span></header>
+  <img class="logo" src="assets/logo-ioha.png" alt="IOHÁ">
+  <div class="kicker">Proposta Comercial · Ciclo 2026 - 2027</div>
+  <h1>Proposta para a posição de Pré-Vendedora (SDR)</h1>
+  <p class="mote" style="font-size: 20px;">Dona do pipeline, da primeira mensagem à agenda cheia.</p>
+  <p>A IOHÁ Academy, empresa de educação fundada por Iôlany Haberkamp, apresenta por meio deste documento a proposta de remuneração, escopo e condições de trabalho para a posição de Pré-Vendedora (SDR), responsável pela prospecção, qualificação e agendamento das reuniões comerciais da companhia.</p>
+  <div class="meta">
+    <div><span class="k">Início previsto</span><span>Setembro de 2026</span></div>
+    <div><span class="k">Contratação</span><span>Prestação de serviços (PJ) · adaptação de 30 dias</span></div>
+    <div><span class="k">Regime</span><span>100% remoto · horário flexível</span></div>
+  </div>
+
+  <h2><span class="sn">1.</span>Apresentação</h2>
+  <p class="mote">Toda mulher que muda de vida com a IOHÁ começou do mesmo jeito: alguém falou com ela primeiro. Esse alguém vai ser você.</p>
+  <p>A IOHÁ existe para que mais mulheres entrem na sua mentoria e se transformem, porque a autoestima é, e sempre será, o grande elemento do sucesso. O produto principal da companhia é o <strong>Estilo 2.0</strong>, mentoria de transformação conduzida em turmas, ao redor do qual se organizam os demais produtos do portfólio.</p>
+  <p>Para esta posição, a companhia procura uma profissional com proatividade, vontade real de vender e ambição. A remuneração do item 3 foi desenhada para esse perfil.</p>
+
+  <h2><span class="sn">2.</span>Escopo da posição</h2>
+  <p class="mote">Dona do pipeline, da primeira mensagem à agenda cheia.</p>
+  <table>
+    <tr><th style="width:38%">Frente</th><th>Descrição</th></tr>
+    <tr><td><strong>Prospecção ativa</strong></td><td>Abordagem direta via WhatsApp e Instagram: listas, indicações e social selling</td></tr>
+    <tr><td><strong>Prospecção passiva</strong></td><td>Atendimento ágil a toda lead originada de anúncios, e-book, eventos e perfil</td></tr>
+    <tr><td><strong>Qualificação</strong></td><td>Triagem de perfil, momento e capacidade, garantindo a lead certa na reunião certa</td></tr>
+    <tr><td><strong>Agendamento e confirmação</strong></td><td>Reunião marcada e confirmada; a reunião realizada é a entrega da posição</td></tr>
+    <tr><td><strong>Follow-up e CRM</strong></td><td>Cadência de retomada e registro completo; o CRM é a fonte oficial de apuração</td></tr>
+  </table>
+  <p>Neste momento, as conversas de venda acontecem próximas à fundadora: a profissional trabalhará diretamente com a Iôlany, aprendendo o método na fonte. Conforme o time comercial cresce, a posição passa a apoiar o follow-up e a organização do CRM da operação, razão pela qual também é comissionada por venda.</p>
+  <p><strong>Ferramentas e rotina:</strong> CRM, WhatsApp, Instagram e telefone, fornecidos pela companhia. Regime 100% remoto com horário flexível: a medida do trabalho não é hora logada, é lead respondida com rapidez e agenda em movimento. Alinhamento diário curto com o comercial e revisão semanal de funil.</p>
+
+  <h2><span class="sn">3.</span>Remuneração</h2>
+  <p class="mote">Cada camada recompensa uma coisa: o chão, o esforço, o resultado e a evolução.</p>
+  <h3>3.1 · Salário base</h3>
+  <p><strong>R$ 1.500,00 mensais</strong>, garantidos, na forma de valor fixo de prestação de serviços.</p>
+  <h3>3.2 · Remuneração por reunião realizada</h3>
+  <p><strong>R$ 18,00 por agendamento que se concretiza</strong>: a lead qualificada compareceu, a conversa comercial aconteceu e o registro consta no CRM. Este valor independe do fechamento da venda.</p>
+  <h3>3.3 · Comissão sobre vendas</h3>
+  <p>A comissão incide sobre <strong>todas as vendas da companhia</strong> no mês, apurada por faixas de faturamento. Nas vendas conduzidas integralmente pela SDR, sem participação do time comercial, aplica-se a <strong>comissão cheia</strong>.</p>
+  <table>
+    <tr><th style="width:48%">Faixa de faturamento do mês</th><th class="num">Comissão do mês</th><th class="num">Comissão cheia · venda da SDR</th></tr>
+    <tr><td>Até R$ 60.000</td><td class="num">1%</td><td class="num"><strong>3%</strong></td></tr>
+    <tr><td>De R$ 60.001 a R$ 100.000, sobre o excedente</td><td class="num">2%</td><td class="num"><strong>6%</strong></td></tr>
+    <tr><td>Acima de R$ 100.000, sobre o excedente</td><td class="num">3%</td><td class="num"><strong>9%</strong></td></tr>
+  </table>
+  <p class="small">As faixas são medidas sobre o faturamento cheio do mês. O valor de comissão apurado é pago sobre o valor líquido das vendas, pela aplicação do fator de 73,05% (que desconta 9,61% de impostos e 17,34% de taxas da plataforma de pagamento).</p>
+  <p><strong>Gatilho de liberação:</strong> a comissão do mês é liberada quando as reuniões realizadas pela SDR geram ao menos <strong>R$ 4.500,00 em vendas</strong> no mês (duas vendas do Estilo 2.0). Atingido o gatilho, a comissão vale para o mês inteiro.</p>
+  <h3>3.4 · Bônus pelas metas da companhia</h3>
+  <p>A companhia publica, no início de cada mês comercial, três metas de faturamento global. Os bônus são <strong>acumulativos</strong>: cada meta batida soma 1 salário base ao mês. Companhia bateu a Meta 1: <strong>1 salário de bônus</strong>. Bateu também a Meta 2: <strong>2 salários</strong>. Bateu a Meta 3, a supermeta: <strong>3 salários base de bônus</strong>.</p>
+  <p class="mote">Quando a IOHÁ cresce, todo mundo cresce junto.</p>
+
+  <!-- CALCULADORA -->
+  <div class="calc" id="calculadora">
+    <h2 style="margin-bottom: 4px;">Simule a sua remuneração</h2>
+    <p class="mote" style="margin-bottom: 18px;">A conta, na prática — mexa nos números e veja o seu mês.</p>
+    <div class="quick">
+      <span class="small" style="align-self:center; margin-right:4px;">Preencher com um cenário:</span>
+      <button type="button" onclick="preset(47964,0,40,0)">Começando</button>
+      <button type="button" onclick="preset(87934,0,60,1)">Engrenou</button>
+      <button type="button" onclick="preset(111916,7994,70,1)">Mês forte</button>
+      <button type="button" onclick="preset(159880,15988,80,3)">Supermeta</button>
+    </div>
+    <div class="grid">
+      <div class="field">
+        <label for="fat">Faturamento da companhia no mês (R$)</label>
+        <input type="number" id="fat" min="0" step="100" value="111916">
+      </div>
+      <div class="field">
+        <label for="solo">Vendas conduzidas por você, sem o comercial (R$)</label>
+        <input type="number" id="solo" min="0" step="100" value="7994">
+      </div>
+      <div class="field">
+        <label for="reun">Reuniões realizadas no mês</label>
+        <input type="number" id="reun" min="0" step="1" value="70">
+      </div>
+      <div class="field">
+        <label for="metas">Metas da companhia batidas no mês</label>
+        <select id="metas">
+          <option value="0">Nenhuma</option>
+          <option value="1" selected>Meta 1 · +1 salário</option>
+          <option value="2">Metas 1 e 2 · +2 salários</option>
+          <option value="3">Supermeta (1, 2 e 3) · +3 salários</option>
+        </select>
+      </div>
+    </div>
+    <label class="chk"><input type="checkbox" id="gate" checked> Minhas reuniões geraram ao menos R$ 4.500 em vendas no mês (gatilho da comissão)</label>
+    <div class="result">
+      <table>
+        <tr><td>Salário base</td><td class="num" id="r-base">R$ 1.500,00</td></tr>
+        <tr><td id="r-reun-l">Reuniões realizadas</td><td class="num" id="r-reun">—</td></tr>
+        <tr><td>Comissão sobre as vendas do mês (faixas 1 · 2 · 3%)</td><td class="num" id="r-com">—</td></tr>
+        <tr><td>Adicional de comissão cheia nas suas vendas</td><td class="num" id="r-solo">—</td></tr>
+        <tr><td>Comissão a receber (× fator líquido 73,05%)</td><td class="num" id="r-liq">—</td></tr>
+        <tr><td id="r-bonus-l">Bônus pelas metas da companhia</td><td class="num" id="r-bonus">—</td></tr>
+        <tr class="rt"><td>Total do mês</td><td class="num" id="r-total">—</td></tr>
+      </table>
+      <div class="warn-gate" id="warn-gate">Sem o gatilho de R$ 4.500 em vendas geradas pelas suas reuniões, a comissão do mês não é liberada.</div>
+    </div>
+    <p class="small" style="margin-top: 12px;">Simulação de referência sobre as regras dos itens 3.1 a 3.4. A apuração oficial é a do espelho individual mensal.</p>
+  </div>
+
+  <h2><span class="sn">4.</span>Pagamento e apuração</h2>
+  <p class="mote">Regras claras, jogo limpo.</p>
+  <table>
+    <tr><th>Forma de pagamento da cliente</th><th>Condições</th><th>Efeito na comissão</th></tr>
+    <tr><td>Pix</td><td>À vista · margem de negociação de até 15%</td><td>Comissão integral no mês da venda</td></tr>
+    <tr><td>Cartão de crédito</td><td>Em até 12 vezes</td><td>Comissão integral no mês da venda; parcela de cartão não parcela comissão</td></tr>
+    <tr><td>Financiamento próprio</td><td>1+2 (entrada de 33%) · 1+4 (43%) · 1+6 (53%)</td><td>Única modalidade parcelada: comissão por parcela quitada</td></tr>
+  </table>
+  <p class="small">O mês comercial encerra no último dia do mês; a apuração consolida após o dia 7 e o pagamento sai no dia 10, com o espelho individual de cálculo. Venda estornada não gera comissão e, se já paga, é compensada.</p>
+
+  <h2><span class="sn">5.</span>Condições gerais</h2>
+  <ul>
+    <li><strong>Contratação:</strong> prestação de serviços (PJ), com contrato próprio e período de adaptação de 30 dias.</li>
+    <li><strong>Onboarding:</strong> nos primeiros 30 dias, acompanhamento próximo do método, dos produtos e dos roteiros de qualificação, com meta de rampa combinada entre as partes.</li>
+    <li><strong>Registro:</strong> todas as tratativas com leads e clientes ocorrem no CRM e nos canais oficiais da companhia; o registro é a condição de apuração da remuneração variável.</li>
+    <li><strong>Crescimento:</strong> a consistência de agenda e de fechamento próprio abre a conversa de evolução na companhia, incluindo a transição para a posição de vendas com a tabela integral do comercial.</li>
+    <li><strong>Confidencialidade:</strong> leads, base de clientes, dados, roteiros e materiais são propriedade da IOHÁ; as condições desta proposta são confidenciais entre as partes.</li>
+    <li><strong>Vigência das regras:</strong> metas e tabelas são publicadas antes do início de cada mês comercial e não são alteradas retroativamente.</li>
+  </ul>
+
+  <h2><span class="sn">6.</span>Mensagem final</h2>
+  <p class="mote">Pré-venda é a porta, não o teto. O convite é para crescer junto: a régua de entrada é ambição, a de subida é resultado.</p>
+  <p>Queremos que você cresça com a gente e se realize aqui: profissionalmente, pessoalmente e financeiramente. A autoestima é, e sempre será, o grande elemento para o sucesso. Vem com a gente.</p>
+  <img class="emblema" src="assets/emblema-ioha.png" alt="Emblema IOHÁ">
+  <p>Iôlany Haberkamp<br><span class="small">Fundadora · IOHÁ Academy</span></p>
+
+  <footer><span>IOHÁ · Proposta SDR</span><span>Confidencial · v. 2026.08</span></footer>
+</div>
+
+<script>
+  var BASE = 1500, REUNIAO = 18, FATOR = 0.7305;
+  var BANDS = [[60000, .01, .03], [40000, .02, .06], [Infinity, .03, .09]];
+
+  function brl(v) {
+    return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+  }
+
+  function calc() {
+    var fat = Math.max(0, parseFloat(document.getElementById('fat').value) || 0);
+    var solo = Math.min(fat, Math.max(0, parseFloat(document.getElementById('solo').value) || 0));
+    var reun = Math.max(0, parseInt(document.getElementById('reun').value) || 0);
+    var metas = parseInt(document.getElementById('metas').value) || 0;
+    var gate = document.getElementById('gate').checked;
+
+    var pagReun = reun * REUNIAO;
+
+    // comissão padrão por faixas sobre o faturamento total
+    var resto = fat, std = 0, occupied = [];
+    for (var i = 0; i < BANDS.length && resto > 0; i++) {
+      var take = Math.min(resto, BANDS[i][0]);
+      std += take * BANDS[i][1];
+      occupied.push([i, take]);
+      resto -= take;
+    }
+    // adicional de comissão cheia: vendas próprias alocadas da faixa mais alta para baixo
+    var soloRest = solo, top = 0;
+    for (var j = occupied.length - 1; j >= 0 && soloRest > 0; j--) {
+      var b = occupied[j][0], amt = Math.min(soloRest, occupied[j][1]);
+      top += amt * (BANDS[b][2] - BANDS[b][1]);
+      soloRest -= amt;
+    }
+    var comCheio = gate ? std : 0;
+    var topCheio = gate ? top : 0;
+    var comPaga = (comCheio + topCheio) * FATOR;
+    var bonus = metas * BASE;
+    var total = BASE + pagReun + comPaga + bonus;
+
+    document.getElementById('r-reun-l').textContent = reun + ' reuniões realizadas × R$ 18,00';
+    document.getElementById('r-reun').textContent = brl(pagReun);
+    document.getElementById('r-com').textContent = brl(comCheio);
+    document.getElementById('r-solo').textContent = brl(topCheio);
+    document.getElementById('r-liq').textContent = brl(comPaga);
+    document.getElementById('r-bonus-l').textContent = metas > 0 ? 'Bônus: ' + metas + ' meta(s) batida(s) = ' + metas + ' salário(s) base' : 'Bônus pelas metas da companhia';
+    document.getElementById('r-bonus').textContent = brl(bonus);
+    document.getElementById('r-total').textContent = brl(total);
+    document.getElementById('warn-gate').style.display = gate ? 'none' : 'block';
+  }
+
+  function preset(fat, solo, reun, metas) {
+    document.getElementById('fat').value = fat;
+    document.getElementById('solo').value = solo;
+    document.getElementById('reun').value = reun;
+    document.getElementById('metas').value = metas;
+    document.getElementById('gate').checked = true;
+    calc();
+  }
+
+  ['fat', 'solo', 'reun', 'metas', 'gate'].forEach(function (id) {
+    document.getElementById(id).addEventListener('input', calc);
+    document.getElementById(id).addEventListener('change', calc);
+  });
+  calc();
+</script>
+</body>
+</html>
